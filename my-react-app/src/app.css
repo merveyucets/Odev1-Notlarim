@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #81a1b5;
+  padding: 10px;
+}
+
+.todo-app {
+  width: 100%;
+  max-width: 500px;
+  background: #fff;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+}
+
+.todo-app h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #9fb7c6;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+.row ul {
+  padding: 10px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  
+  
+}
+.row button {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: rgb(50, 97, 130);
+  color: white;
+  cursor: pointer;
+  border-radius: 0 40px 40px 0;
+}
+
+ul li {
+  list-style: none;
+  padding: 10px 0px 20px 10px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  background: #9fb7c6;
+  border-radius: 15px;
+}
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.buttons {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  border: none;
+  outline: none;
+  padding: 0px;
+  background: #9fb7c6;
+  color: white;
+  cursor: pointer;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+ul li input {
+  width: 50px;
+  height: 15px;
+}
+
+.task-btn-up {
+  border: none;
+  outline: none;
+  margin: 0px 5px 0px 0px;
+  background: rgb(50, 97, 130);
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.task-btn-down {
+  border: none;
+  outline: none;
+  background: rgb(50, 97, 130);
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0px 5px 0px 0px;
+  font-size: 10px;
+}
+.input{
+  width: max-content;
+  
+}
